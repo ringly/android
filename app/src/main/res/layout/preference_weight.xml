@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="@dimen/large_space"
+    >
+
+    <EditText
+        android:id="@+id/weight_picker"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:inputType="numberDecimal"
+        android:gravity="center_horizontal|bottom"
+        />
+
+    <RadioGroup
+        android:id="@+id/weight_unit_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/large_space"
+        android:paddingEnd="@dimen/large_space"
+        android:gravity="bottom"
+        >
+        <RadioButton
+            android:id="@+id/unit_lb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lb"
+            />
+        <RadioButton
+            android:id="@+id/unit_kg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kg"
+            />
+    </RadioGroup>
+
+</LinearLayout>

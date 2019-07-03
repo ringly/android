@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="@string/connection_light_key"
+        android:summary="@string/connection_light_description"
+        android:title="@string/connection_light"
+        android:defaultValue="false"
+        />
+
+    <CheckBoxPreference
+        android:key="@string/disconnection_buzz_key"
+        android:summary="@string/disconnection_buzz_description"
+        android:title="@string/disconnection_buzz"
+        android:defaultValue="false"
+        />
+
+    <CheckBoxPreference
+        android:key="@string/sleep_mode_key"
+        android:summary="@string/sleep_mode_description"
+        android:title="@string/sleep_mode"
+        android:defaultValue="true"
+        />
+
+    <com.ringly.ringly.ui.screens.preferences.HeightPreference
+        android:key="height"
+        android:persistent="true"
+        android:title="@string/height"
+        android:dialogLayout="@layout/preference_height"
+        />
+
+    <com.ringly.ringly.ui.screens.preferences.WeightPreference
+        android:key="weight"
+        android:persistent="true"
+        android:title="@string/weight"
+        android:dialogLayout="@layout/preference_weight"
+        />
+
+    <com.ringly.ringly.ui.screens.preferences.DatePreference
+        android:key="birthday"
+        android:persistent="true"
+        android:title="@string/birthday"
+        />
+
+    <com.ringly.ringly.ui.screens.preferences.GoalPreference
+        android:key="goal"
+        android:persistent="true"
+        android:title="@string/goal_title"
+        />
+
+    <com.ringly.ringly.ui.screens.preferences.MindfulMinutesGoalPreference
+        android:key="@string/mindful_minutes_goal_key"
+        android:persistent="true"
+        android:title="@string/mindful_minutes_goal"
+        />
+
+    <!--CheckBoxPreference
+        android:key="@string/mindful_reminder_key"
+        android:summary="@string/daily_reminder_descrip"
+        android:title="@string/daily_reminder"
+        android:defaultValue="false"
+        />
+
+    <com.ringly.ringly.ui.screens.preferences.HourPreference
+        android:key="@string/mindful_reminder_time_hour_key"
+        android:persistent="true"
+        android:title="@string/reminder_time"
+        /-->
+
+    <com.ringly.ringly.ui.screens.preferences.RingPreference
+        android:key="@string/ring_key"
+        />
+
+    <Preference
+        android:key="@string/prefs_help"
+        android:title="@string/prefs_help"
+        />
+
+    <Preference
+        android:key="@string/disconnect"
+        android:title="@string/disconnect"
+        />
+
+    <Preference
+        android:key="@string/signout"
+        android:title="@string/signout"
+        />
+
+</PreferenceScreen>

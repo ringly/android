@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/notification_height"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:background="@color/gray"
+    tools:ignore="UseCompoundDrawables"
+    >
+    <ImageView
+        android:id="@+id/swipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:background="@color/green"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/notification_height"
+            android:gravity="center_vertical"
+            android:padding="@dimen/large_space"
+            android:drawablePadding="@dimen/medium_space"
+            android:drawableStart="@drawable/contact"
+            android:textSize="@dimen/label_text"
+            tools:text="C o n t a c t   N a m e"
+            />
+        <ImageView
+            android:id="@+id/delete"
+            android:src="@drawable/delete"
+            android:contentDescription="@string/delete_description"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="@dimen/large_space"
+            />
+    </LinearLayout>
+</FrameLayout>

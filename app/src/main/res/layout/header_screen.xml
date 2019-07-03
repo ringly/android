@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/black"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/fragment_notifications"
+    >
+    <ImageView
+        android:id="@+id/menu"
+        android:src="@drawable/menu_pink"
+        android:contentDescription="@string/show_screens_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:padding="@dimen/header_padding"
+        />
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="@dimen/label_text"
+        android:textColor="@color/pink"
+        tools:text="N o t i f i c a t i o n s"
+        android:paddingTop="@dimen/header_padding"
+        android:paddingBottom="@dimen/header_padding"
+        />
+    <TextView
+        android:id="@+id/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:textSize="@dimen/body_text"
+        android:textColor="@color/pink"
+        android:text="@string/edit"
+        android:visibility="gone"
+        tools:text="E d i t"
+        tools:visibility="visible"
+        android:paddingTop="@dimen/header_padding"
+        android:paddingBottom="@dimen/header_padding"
+        android:paddingLeft="@dimen/header_padding"
+        android:paddingRight="@dimen/large_space"
+
+        />
+</RelativeLayout>

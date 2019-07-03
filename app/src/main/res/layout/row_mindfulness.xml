@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_height="90dp">
+
+    <ImageView
+        android:id="@+id/imgRow"
+        android:layout_width="0dp"
+        android:layout_weight="0.25"
+        android:layout_height="match_parent" android:src="@drawable/mindfulness_breath"
+        android:scaleType="centerInside"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="0.75"
+        android:paddingLeft="8dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtTitle"
+            android:textAllCaps="true"
+            android:textSize="@dimen/label_text"
+            android:textColor="@color/gray"
+            android:letterSpacing="0.1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtType"
+            android:textSize="@dimen/tiny_text"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/medium_gray"
+            android:letterSpacing="0.1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:id="@+id/txtMinutes"
+            android:textSize="@dimen/tiny_text"
+            android:textColor="@color/medium_gray"
+            android:letterSpacing="0.1"/>
+    </LinearLayout>
+</LinearLayout>

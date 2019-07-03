@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/notification_height"
+    android:background="@color/gray"
+    android:tag="@string/edit">
+    <RelativeLayout
+        android:layout_width="@dimen/vibration_width"
+        android:layout_height="match_parent"
+        android:background="@color/medium_gray"
+        android:gravity="center">
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:button="@drawable/checkbox" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/name"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:padding="@dimen/large_space"
+        android:drawablePadding="@dimen/medium_space"
+        android:textSize="@dimen/label_text"
+        tools:text="P H O N E   C A L L"
+        tools:drawableStart="@drawable/notifications_phone_call"
+        />
+</LinearLayout>

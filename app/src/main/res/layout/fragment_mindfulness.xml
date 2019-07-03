@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:background="@color/light_gray"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.20"
+                    android:gravity="center">
+
+                    <com.ringly.ringly.ui.screens.mindfulness.ProgressView
+                        android:id="@+id/progressMindful"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.80"
+                    android:orientation="vertical"
+                    android:paddingLeft="8dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:letterSpacing="0.1"
+                        android:text="@string/stay_mindful"
+                        android:textAllCaps="true"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/label_text" />
+
+                    <TextView
+                        android:id="@+id/txtProgress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:letterSpacing="0.1"
+                        android:text="5 out of 10 mindful minutes"
+                        android:textColor="@color/medium_gray"
+                        android:textSize="@dimen/tiny_text" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="17dp"
+
+                android:letterSpacing="0.1"
+                android:text="@string/breathing_exercises"
+                android:textAllCaps="true"
+                android:textColor="@color/medium_gray"
+                android:textSize="@dimen/tiny_text" />
+
+            <com.ringly.ringly.ui.screens.mindfulness.MindfulnessRow
+                android:id="@+id/layoutBreathing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                app:minutes="@string/breathing_minutes"
+                app:title="@string/take_a_breather" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="9dp"
+                android:letterSpacing="0.1"
+                android:text="@string/guided_audio_sessions"
+                android:textAllCaps="true"
+                android:textColor="@color/medium_gray"
+                android:textSize="@dimen/tiny_text" />
+
+            <LinearLayout
+                android:id="@+id/layoutGuidedMeditations"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:background="#bfbfbf" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                android:gravity="center_horizontal"
+                android:text="@string/mindfulness_feedback"
+                android:textColor="@color/medium_gray"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="34dp"
+                android:id="@+id/feedbackLink"
+                android:text="@string/mindfulness_let_us_know"
+                android:textColor="@android:color/black"
+                android:textColorLink="@android:color/black"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

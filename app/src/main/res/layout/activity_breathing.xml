@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layoutMain"
+    android:background="@drawable/gradient_meditation_blue_green"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layoutBeginning"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <Button
+            android:onClick="closeScreen"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/button_exit"
+            />
+
+        <TextView
+            android:id="@+id/txtTakeBreather"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.22"
+            android:gravity="center_horizontal|bottom"
+            android:letterSpacing="0.1"
+            android:paddingBottom="20dp"
+            android:text="@string/take_a_breather"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/heading_text" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.32"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnBegin"
+                android:onClick="startBreathing"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:background="@drawable/button_begin"
+                android:drawablePadding="-25dp"
+                android:drawableTop="@drawable/mindfulness_breath"
+                android:gravity="center"
+                android:letterSpacing="0.1"
+                android:padding="10dp"
+                android:text="@string/begin"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/heading_text" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.30"
+            android:gravity="center_horizontal|top"
+            android:letterSpacing="0.1"
+            android:paddingTop="20dp"
+            android:text="@string/breathing_msg"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/heading_text" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="0.15"
+            android:background="@android:color/white"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:letterSpacing="0.1"
+                    android:text="@string/i_have"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/label_text" />
+
+                <Button
+                    android:id="@+id/btn1minute"
+                    android:onClick="setMinutes"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/selector_button_minutes"
+                    android:tag="1"
+                    android:text="1"
+                    android:textColor="@drawable/selector_font_minutes"
+                    android:textSize="@dimen/heading_text" />
+
+                <Button
+                    android:id="@+id/btn3minute"
+                    android:onClick="setMinutes"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/selector_button_minutes"
+                    android:tag="3"
+                    android:text="3"
+                    android:textColor="@drawable/selector_font_minutes"
+                    android:textSize="@dimen/heading_text" />
+
+                <Button
+                    android:id="@+id/btn5minute"
+                    android:onClick="setMinutes"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/selector_button_minutes"
+                    android:tag="5"
+                    android:text="5"
+                    android:textColor="@drawable/selector_font_minutes"
+                    android:textSize="@dimen/heading_text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:letterSpacing="0.1"
+                    android:text="@string/minutes_dot"
+                    android:textColor="@drawable/selector_font_minutes"
+                    android:textSize="@dimen/label_text" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutBreathing"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:id="@+id/layoutTimer"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:orientation="horizontal">
+
+            <Button
+                android:onClick="closeScreen"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button_exit"
+                />
+
+            <TextView
+                android:id="@+id/txtTimer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:letterSpacing="0.1"
+                android:text="0:00"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/label_text" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.70">
+
+            <Button
+                android:id="@+id/imgDone"
+                android:layout_width="137dp"
+                android:layout_height="137dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/mindfulness_done_check"
+                android:visibility="gone" />
+
+            <com.ringly.ringly.ui.screens.mindfulness.CircleView
+                android:id="@+id/circle1"
+                android:layout_width="137dp"
+                android:layout_height="137dp"
+                android:layout_centerInParent="true" />
+
+            <com.ringly.ringly.ui.screens.mindfulness.CircleView
+                android:id="@+id/circle2"
+                android:layout_width="137dp"
+                android:layout_height="137dp"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2">
+
+            <TextView
+                android:id="@+id/txtIntro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:letterSpacing="0.1"
+                android:text="@string/breathing_msg"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/heading_text" />
+
+            <TextView
+                android:id="@+id/txtStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/inhale"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/heading_text" />
+
+            <Button
+                android:id="@+id/btnCheckDone"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@android:color/white"
+                android:letterSpacing="0.1"
+                android:text="@string/done"
+                android:textAllCaps="true"
+                android:textColor="@color/meditation_blue"
+                android:textSize="@dimen/label_text"
+                android:textStyle="bold"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</FrameLayout>

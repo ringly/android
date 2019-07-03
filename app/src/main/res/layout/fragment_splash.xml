@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/splash"
+        android:scaleType="centerCrop"
+        />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ringly_logo"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="64dp"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/button_create_user"
+            android:theme="@style/AppTheme.LoginButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textSize="15sp"
+            android:text="@string/create_user"
+            />
+
+        <Button
+            android:id="@+id/button_login"
+            android:theme="@style/AppTheme.LoginButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="15sp"
+            android:padding="16dp"
+            android:text="@string/login"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

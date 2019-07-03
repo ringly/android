@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BaseTheme" parent="Theme.AppCompat.NoActionBar" />
+
+    <style name="Switch" parent="BaseSwitch">
+        <item name="android:track">@drawable/switch_track</item>
+        <item name="android:thumb">@drawable/switch_thumb</item>
+    </style>
+
+    <style name="AppTheme.LoginButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:colorButtonNormal">@android:color/white</item>
+        <item name="android:textColor">?attr/colorAccent</item>
+    </style>
+
+</resources>

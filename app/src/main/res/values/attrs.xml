@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DiamondFacet">
+        <attr name="p1_x" format="float" />
+        <attr name="p1_y" format="float" />
+        <attr name="p2_x" format="float" />
+        <attr name="p2_y" format="float" />
+        <attr name="p3_x" format="float" />
+        <attr name="p3_y" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="StepsProgress">
+        <attr name="progress" format="float"/>
+        <attr name="barColor" format="color"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="MindfulnessRow">
+        <attr name="title" format="string"/>
+        <attr name="type" format="string"/>
+        <attr name="minutes" format="string"/>
+    </declare-styleable>
+</resources>

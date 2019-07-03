@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:background="@drawable/gradient_red_purple"
+    android:clipChildren="false"
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipChildren="false"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="384dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:clipChildren="false"
+            >
+            <TextView
+                android:id="@+id/ringly_main"
+                android:text="@string/app_name"
+                android:textSize="@dimen/title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:clipChildren="false">
+
+                    <ImageView
+                        android:src="@drawable/glow_shadow"
+                        android:id="@+id/ring_glow"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:visibility="invisible"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginBottom="14dp"
+                        />
+
+                    <ImageView
+                        android:src="@drawable/glow_shadow"
+                        android:id="@+id/bracelet_glow"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:visibility="invisible"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="50dp"
+                        />
+
+                    <ImageView
+                        android:src="@drawable/glow_shadow"
+                        android:id="@+id/ringly_go_glow"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:visibility="invisible"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="29dp"
+                    />
+
+                <ImageView
+                        android:id="@+id/ring_photo"
+                        android:visibility="invisible"
+                        android:src="@drawable/ring_into_the_woods"
+                        android:contentDescription="@string/ring_photo_description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerInside"
+                        android:layout_centerVertical="true"
+                        tools:visibility="visible"
+                        />
+
+            </FrameLayout>
+            <TextView
+                android:id="@+id/ring_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/heading_text"
+                tools:text="“ I n t o   T h e   W o o d s ”"
+                />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/heading_text"
+                />
+            <TextView
+                android:id="@+id/connection"
+                android:textSize="@dimen/heading_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="C o n n e c t e d"
+                />
+        </LinearLayout>
+
+    </FrameLayout>
+    <LinearLayout
+        android:id="@+id/footer"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/medium_space"
+        android:background="@drawable/bottom_bar"
+        tools:visibility="visible"
+        >
+        <TextView
+            android:id="@+id/charge_state"
+            android:text="@string/not_charging"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="@dimen/label_text"
+            />
+        <ImageView
+            android:id="@+id/battery_level"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/battery_level_description"
+            tools:src="@drawable/battery_half"
+            />
+    </LinearLayout>
+
+</LinearLayout>

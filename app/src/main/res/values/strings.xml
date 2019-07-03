@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ringly</string>
+    <string name="ringly_love">Ringly Loves You</string>
+
+    <string name="icon_description">icon</string>
+    <string name="horizontal_rule_description">horizontal rule</string>
+    <string name="checkbox_description">checkbox</string>
+    <string name="delete_description">delete</string>
+    <string name="show_screens_description">menu button</string>
+
+    <string name="edit">Edit</string>
+    <string name="done">Done</string>
+    <string name="clear">Clear</string>
+
+    <!-- MainActivity -->
+    <string name="tap_for_ring_update">TAP FOR DEVICE UPDATE</string>
+    <string name="welcome_to">Welcome To</string>
+
+    <!-- IntroFragment -->
+    <string name="ring_and_phone_description">ring and phone</string>
+    <string name="lets_get_started">Let’s get started!</string>
+    <string name="connect">Connect</string>
+    <string name="searching">Searching…</string>
+    <string name="no_rings_found">No Ringly jewelry found!</string>
+
+    <!-- SetupFragment -->
+    <string name="check_mark_description">check mark</string>
+    <string name="notification_access">Notification Access</string>
+    <string name="notification_access_description">To receive notifications on your ring, please enable Ringly’s access to your phone’s notifications, see when you’re getting a phone call, and read SMS messages. When you’re done, press the back button to return to the Ringly app.</string>
+    <string name="permissions_denied">Without these permissions, you won’t be able to receive notifications on your ring.</string>
+    <string name="location_denied">Android requires the location permission in order to scan for and connect to bluetooth devices.</string>
+    <string name="enable">Enable</string>
+    <string name="location_needs_enabling">Please set Location to “on”. This is required by Android to scan for and connect to bluetooth devices.</string>
+
+    <!-- RingsFragment -->
+    <string name="rings_label">We found a few devices close by</string>
+    <string name="rings_description">Look at the last 4 characters on the box’s bar code to find yours.</string>
+
+    <!-- ConnectionFragment -->
+    <string name="connection_title"></string>
+    <string name="connection">Connection</string>
+    <string name="ring_photo_description">ring photo</string>
+    <string name="connected">Connected</string>
+    <string name="not_connected">Connecting</string>
+    <string name="not_charging">Ringly Battery</string>
+    <string name="charging">Charging</string>
+    <string name="charged">Charged</string>
+    <string name="battery_level_description">battery level</string>
+
+    <string name="daybreak">Daybreak</string>
+    <string name="daydream">Daydream</string>
+    <string name="disrupt">Disrupt</string>
+    <string name="dive_bar">Dive Bar</string>
+    <string name="into_the_woods">Into the Woods</string>
+    <string name="opening_night">Opening Night</string>
+    <string name="out_to_sea">Out to Sea</string>
+    <string name="stargaze">Stargaze</string>
+    <string name="wanderlust">Wanderlust</string>
+    <string name="wine_bar">Wine Bar</string>
+    <string name="first_date">First Date</string>
+    <string name="after_hours">After Hours</string>
+    <string name="full_moon">Full Moon</string>
+    <string name="high_tide">High Tide</string>
+
+    <string name="backstage">Backstage</string>
+    <string name="boardwalk">Boardwalk</string>
+    <string name="photobooth">Photo Booth</string>
+    <string name="rendezvous">Rendezvous</string>
+    <string name="roadtrip">Road Trip</string>
+    <string name="lakeside">Lakeside</string>
+    <string name="ringly_go">Ringly GO</string>
+    <string name="rose">Rosé All Day</string>
+    <string name="jet_set">Jet Set</string>
+    <string name="joy_ride">Joy Ride</string>
+    <string name="bon_voyage">Bon Voyage</string>
+
+    <string name="ringly_love_type">Happy Valentine\'s Day!!</string>
+    <string name="ringly_love_connection">xo</string>
+
+    <!-- NotificationsFragment -->
+    <string name="notifications_title">Alerts</string>
+    <string name="notifications">Alerts</string>
+    <string name="phone_call">Phone Call</string>
+    <string name="text_message">Text Message</string>
+    <string name="email">Email</string>
+    <string name="android_email">Android Email</string>
+    <string name="calendar">Calendar</string>
+
+    <string name="accuweather">AccuWeather</string>
+    <string name="airbnb">Airbnb</string>
+    <string name="allo">Allo</string>
+    <string name="amazon_alexa">Amazon Alexa</string>
+    <string name="american_airlines">American Airlines</string>
+    <string name="anydo">Any.do</string>
+    <string name="ap">AP</string>
+    <string name="arlo">Arlo</string>
+    <string name="asana">Asana</string>
+    <string name="avocado">Avocado</string>
+    <string name="basecamp3">Basecamp 3</string>
+    <string name="bbm">BBM</string>
+    <string name="between">Between</string>
+    <string name="birchbox">Birchbox</string>
+    <string name="buffer">Buffer</string>
+    <string name="bumble">Bumble</string>
+    <string name="bsafe">bSafe</string>
+    <string name="chomp">chompSMS</string>
+    <string name="classdojo">ClassDojo</string>
+    <string name="cleverloop">CleverLoop</string>
+    <string name="clue">Clue</string>
+    <string name="coachella">Coachella</string>
+    <string name="couple">Couple</string>
+    <string name="covet">Covet Fashion</string>
+    <string name="cozi">Cozi</string>
+    <string name="dexcom_follow">Dexcom Follow</string>
+    <string name="doc_halo">Doc Halo</string>
+    <string name="docusign">DocuSign</string>
+    <string name="dropcam">Dropcam</string>
+    <string name="ebay">eBay</string>
+    <string name="endomondo">Endomondo</string>
+    <string name="espn">ESPN</string>
+    <string name="etsy">Etsy</string>
+    <string name="evernote">Evernote</string>
+    <string name="facebook">Facebook</string>
+    <string name="facebook_messenger">Facebook Messenger</string>
+    <string name="facebook_pma">Facebook Pages Manager</string>
+    <string name="fitbit">Fitbit</string>
+    <string name="fly_delta">Fly Delta</string>
+    <string name="flywheel">Flywheel</string>
+    <string name="fox_news">Fox News</string>
+    <string name="gilt">Gilt</string>
+    <string name="glide">Glide</string>
+    <string name="glip">Glip</string>
+    <string name="glooko">Glooko</string>
+    <string name="glow">Glow</string>
+    <string name="gmail">Gmail</string>
+    <string name="good">Good</string>
+    <string name="goodreads">Goodreads</string>
+    <string name="google_duo">Google Duo</string>
+    <string name="google_express">Google Express</string>
+    <string name="google_fit">Google Fit</string>
+    <string name="google_keep">Google Keep</string>
+    <string name="google_maps">Google Maps</string>
+    <string name="google_now">Google Now</string>
+    <string name="google_voice">Google Voice</string>
+    <string name="groupme">GroupMe</string>
+    <string name="grubhub">GrubHub</string>
+    <string name="hangouts">Hangouts</string>
+    <string name="happn">happn</string>
+    <string name="headspace">Headspace</string>
+    <string name="hidrate">Hidrate</string>
+    <string name="hinge">Hinge</string>
+    <string name="hipchat">HipChat</string>
+    <string name="homeboy">Homeboy</string>
+    <string name="hooks">Hooks</string>
+    <string name="hootsuite">Hootsuite</string>
+    <string name="ifttt">IFTTT</string>
+    <string name="inbox">Inbox</string>
+    <string name="instacart">Instacart</string>
+    <string name="instagram">Instagram</string>
+    <string name="jetblue">JetBlue</string>
+    <string name="kakaotalk">KakaoTalk</string>
+    <string name="kik">Kik</string>
+    <string name="la_times">LA Times</string>
+    <string name="letgo">letgo</string>
+    <string name="life360">Life360</string>
+    <string name="line">Line</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="lose_it">Lose It</string>
+    <string name="lyft">Lyft</string>
+    <string name="maple">Maple</string>
+    <string name="mapmydogwalk">MapMyDogWalk</string>
+    <string name="mapmyfitness">MapMyFitness</string>
+    <string name="mapmyhike">MapMyHike</string>
+    <string name="mapmyride">MapMyRide</string>
+    <string name="mapmyrun">MapMyRun</string>
+    <string name="mapmywalk">MapMyWalk</string>
+    <string name="medisafe">Medisafe</string>
+    <string name="mercari">Mercari</string>
+    <string name="microsoft_outlook">Microsoft Outlook</string>
+    <string name="mint">Mint</string>
+    <string name="mobileiron">Mobile@Work</string>
+    <string name="my_bright_day">My Bright Day</string>
+    <string name="myfitnesspal">MyFitnessPal</string>
+    <string name="myidealdoctor">MYidealDOCTOR</string>
+    <string name="mypill">myPill</string>
+    <string name="mypillbox">My PillBox</string>
+    <string name="myzone">MYZONE</string>
+    <string name="nbc_sports">NBC Sports</string>
+    <string name="nest">Nest</string>
+    <string name="net_a_porter">NET-A-PORTER</string>
+    <string name="nine">Nine</string>
+    <string name="ntouch">ntouch</string>
+    <string name="nytimes">NY Times</string>
+    <string name="offerup">OfferUp</string>
+    <string name="okcupid">OkCupid</string>
+    <string name="opsgenie">OpsGenie</string>
+    <string name="pacifica">Pacifica</string>
+    <string name="pagerduty">PagerDuty</string>
+    <string name="park_cc">Park CC</string>
+    <string name="parkmobile">Parkmobile</string>
+    <string name="paypal">PayPal</string>
+    <string name="period_tracker_deluxe">Period Tracker Deluxe</string>
+    <string name="periscope">Periscope</string>
+    <string name="pinterest">Pinterest</string>
+    <string name="plann">Plann</string>
+    <string name="pocketsuite">PocketSuite</string>
+    <string name="poshmark">Poshmark</string>
+    <string name="pushbullet">Pushbullet</string>
+    <string name="randomly_remindme">Randomly RemindMe</string>
+    <string name="ring">Ring</string>
+    <string name="robinhood">Robinhood</string>
+    <string name="rocket_chat">Rocket.Chat</string>
+    <string name="rover">Rover</string>
+    <string name="salesforce1">Salesforce1</string>
+    <string name="salesforce_inbox">Salesforce Inbox</string>
+    <string name="sellonetsy">Sell on Etsy</string>
+    <string name="shazam">Shazam</string>
+    <string name="shipt">Shipt</string>
+    <string name="shopify">Shopify</string>
+    <string name="s_health">S Health</string>
+    <string name="signal">Signal</string>
+    <string name="simple">Simple</string>
+    <string name="skype">Skype</string>
+    <string name="slack">Slack</string>
+    <string name="sleep_cycle">Sleep Cycle</string>
+    <string name="snapchat">Snapchat</string>
+    <string name="soundhound">Soundhound</string>
+    <string name="spok_mobile">Spok Mobile</string>
+    <string name="spot_on">Spot On</string>
+    <string name="spring">Spring</string>
+    <string name="sproutsocial">Sprout Social</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="tadpoles">Tadpoles</string>
+    <string name="talkspace">Talkspace</string>
+    <string name="telegram">Telegram</string>
+    <string name="textme">TextMe</string>
+    <string name="textra">Textra SMS</string>
+    <string name="the_new_stand">The New Stand</string>
+    <string name="thescore">theScore</string>
+    <string name="thuuz">Thuuz Sports</string>
+    <string name="tigertext">TigerText</string>
+    <string name="tinder">Tinder</string>
+    <string name="todoist">Todoist</string>
+    <string name="touchdown">TouchDown</string>
+    <string name="trello">Trello</string>
+    <string name="tripit">TripIt</string>
+    <string name="tumblr">Tumblr</string>
+    <string name="twitter">Twitter</string>
+    <string name="uber">Uber</string>
+    <string name="united">United</string>
+    <string name="up_smart_coach">UP Smart Coach</string>
+    <string name="vector_security">Vector Security</string>
+    <string name="venmo">Venmo</string>
+    <string name="viber">Viber</string>
+    <string name="vine">Vine</string>
+    <string name="virgin_pulse">Virgin Pulse</string>
+    <string name="voxer">Voxer</string>
+    <string name="waterin">Waterin</string>
+    <string name="waze">Waze</string>
+    <string name="wechat">WeChat</string>
+    <string name="weibo">微博</string>
+    <string name="weight_watchers">Weight Watchers</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="weather_channel">Weather Channel</string>
+    <string name="wickr">Wickr Me</string>
+    <string name="wire">Wire</string>
+    <string name="wunderlist">Wunderlist</string>
+    <string name="yahoo_fantasy">Yahoo Fantasy Sports</string>
+    <string name="yahoomail">Yahoo Mail</string>
+    <string name="zendesk_support">Zendesk Support</string>
+
+    <!-- ContactsFragment -->
+    <string name="contacts_title">Contacts</string>
+    <string name="contacts">Contacts</string>
+    <string name="add_a_contact">Add A Contact</string>
+    <string name="inner_ring">Inner Ring</string>
+    <string name="inner_ring_1">Receive all phone calls and text messages, but flash an additional color for the below contacts.</string>
+    <string name="inner_ring_2">Only receive phone calls and text messages from the below contacts.</string>
+
+    <!-- PreferencesFragment -->
+    <string name="preferences_title">Settings</string>
+    <string name="preferences">Settings</string>
+    <string name="connection_light">Connection Taps</string>
+    <string name="connection_light_description">Tap your Ringly twice. Blue indicates connected, pink indicates disconnected.</string>
+    <string name="disconnection_buzz">Out Of Range</string>
+    <string name="disconnection_buzz_description">Buzz your Ringly when your phone goes out of range.</string>
+    <string name="sleep_mode">Sleep Mode</string>
+    <string name="sleep_mode_description">Save power when your Ringly is not moving.</string>
+    <string name="ring_settings">My Ringly’s Settings</string>
+    <string name="ring_connected">Connected to:</string>
+    <string name="no_ring_connected">Not connected</string>
+    <string name="prefs_help">Help</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="signout">Sign out</string>
+    <string name="weight">Weight</string>
+    <string name="lb">lb</string>
+    <string name="kg">kg</string>
+    <string-array name="weight_units">
+        <item>@string/lb</item>
+        <item>@string/kg</item>
+    </string-array>
+    <string name="height">Height</string>
+    <string name="ft">ft</string>
+    <string name="in">in</string>
+    <string name="ft_in">ft &amp; in</string>
+    <string name="cm">cm</string>
+    <string-array name="height_units">
+        <item>@string/ft_in</item>
+        <item>@string/cm</item>
+    </string-array>
+    <string name="goal_title">Steps Goal</string>
+    <string name="goal">Goal</string>
+    <string name="birthday">Birthday</string>
+
+    <!-- Preference keys -->
+    <string name="connection_light_key">connectionTaps</string>
+    <string name="disconnection_buzz_key">disconnectionBuzz</string>
+    <string name="sleep_mode_key">sleepMode</string>
+    <string name="ring_key">ring</string>
+    <string name="mindful_minutes_goal_key">mindful_minutes_goal</string>
+    <string name="mindful_minutes_count_key">mindful_minutes_count</string>
+    <string name="mindful_minutes_reset_key">mindful_minutes_reset</string>
+    <string name="mindful_reminder_key">mindful_reminder</string>
+    <string name="mindful_reminder_time_hour_key">mindful_reminder_time_hour</string>
+    <string name="mindful_reminder_time_minutes_key">mindful_reminder_time_minutes</string>
+
+    <!-- dfu.IntroFragment -->
+    <string name="were_making_ringly_better">Let’s Make Your Ringly Even Better!</string>
+    <string name="update_your_ring_for">Update Your Device For</string>
+    <string name="dfu_improvements">• Improved Connection\n• Longer Battery Life\n• Easier Future Updates</string>
+    <string name="ring_outline_description">ring outline</string>
+    <string name="get_started">Get Started</string>
+    <string name="remind_me_later">"R E M I N D   M E   L A T E R"</string>
+
+    <!-- DownloadFragment -->
+    <string name="download_failed_description">Download failed, try again later.</string>
+
+    <!-- ChargerFragment -->
+    <string name="important">Important!</string>
+    <string name="dfu_charger_description">Please start charging your device, and do not remove it until the update process is complete. Thanks!</string>
+    <string name="charging_box_description">charging box</string>
+    <string name="down_arrow_description">down arrow</string>
+    <string name="lets_go">Let’s Go!</string>
+
+    <!-- UpdateFragment -->
+    <string name="updating">Good Things Are Happening</string>
+    <string name="dfu_update_description">Please leave your Ringly in the charging box until all of the updates are complete.</string>
+
+    <!-- DoneFragment -->
+    <string name="youre_done">You Did It!</string>
+    <string name="dfu_done_description">Your Ringly Has Been Successfully Updated.\nTime To Celebrate!</string>
+    <string name="finish">Finish</string>
+
+    <!-- FailureFragment -->
+    <string name="oh_no_the_update_hit_a_snag">Oh No, The Update Hit A Snag</string>
+    <string name="dfu_failed_description">Please try again, or contact us at support@ringly.com</string>
+    <string name="close">Close</string>
+
+    <!-- onboarding NotificationsFragment -->
+    <string name="lets_do_this">Let’s do this</string>
+    <string name="customization_title">Customized\nto you</string>
+    <string name="customization_text">Only receive notifications from the apps\nYOU choose and filter out the rest.</string>
+
+    <!-- WelcomeFragment -->
+    <string name="starting_tips">We have a few\nhelpful tips\nto get you\nstarted.</string>
+
+    <!-- BoxFragment -->
+    <string name="charger_title">Your jewelry box is\nthe charger</string>
+    <string name="charger_text">It should take 4 hours to fully charge\nyour Ringly. Once charged,
+    your Ringly will\nlast 24-48 hours, depending on usage.</string>
+
+    <!-- GearsFragment -->
+    <string name="gears_title">Connect from\nthe Ringly app\u0020</string> <!-- wasn't centering without this extra space -->
+    <string name="gears_text">Your Ringly communicates with your\nphone through the Ringly app. No need\nto connect in your Bluetooth settings!</string>
+
+
+    <!-- LoginActivity -->
+    <string name="cancel">Cancel</string>
+    <string name="create_user">Sign up</string>
+    <string name="email_label">Email</string>
+    <string name="login">Login</string>
+    <string name="password_label">Password</string>
+    <string name="password_length">8 or more characters</string>
+    <string name="invalid_email">Invalid email</string>
+    <string name="no_connection">Couldn’t connect</string>
+
+
+    <!-- CreateUserFragment -->
+    <string name="email_in_use">Looks like that email isn’t valid. Do you already have an account?</string>
+    <string name="switch_to_login">Already signed up? <u>Login</u></string>
+
+    <!-- LoginFramgnet -->
+    <string name="login_error">Couldn’t login. Are your email and password correct?</string>
+    <string name="switch_to_signup">New to Ringly? <u>Sign Up</u></string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="activity">Activity</string>
+    <string name="activity_title">Activity</string>
+
+    <!-- Mixpanel -->
+    <string name="onboarding">Onboarding</string>
+    <string name="launch">Launch</string>
+    <string name="tabs">Tabs</string>
+    <string name="settings">Settings</string>
+    <string name="setup_notifications">Setup Notifications</string>
+    <string name="post_connect">Post Connect</string>
+    <string name="post_setup_notifications">Post Setup Notifications</string>
+    <string name="denied">Denied</string>
+    <string name="accepted">Accepted</string>
+    <string name="register">Register</string>
+
+    <!-- ActivityFragment -->
+    <string name="steps">Steps</string>
+    <string name="miles">Miles</string>
+    <string name="km">KM</string>
+    <string name="calories">Calories</string>
+    <string name="unset_prefs">+</string>
+    <string name="unset_height_dialog">Please add your height in Settings, so we can calculate distance.</string>
+    <string name="unset_weight_dialog">Please complete your Activity Settings, so we can calculate calories burned.</string>
+    <string name="set">Set</string>
+    <string-array name="step_groupings">
+        <item>Hour</item>
+        <item>Day</item>
+        <item>Month</item>
+    </string-array>
+
+    <!-- ActivityPlaceholderFragment -->
+    <string name="get_moving">Get moving and get those steps. \n\nYou can do it!</string>
+    <string name="reconnect_ringly_for_steps">
+        Please disconnect your Ringly from the Settings menu and reconnect to initialize activity tracking.
+        \n\nIf this persists, try restarting your phone. You can also reach out to us at support@ringly.com
+    </string>
+
+    <string name="update_needed_but_not_found">
+        Your Ringly needs to be updated in-app to support steps.
+        \n\nPlease verify you are connected to the Internet, then disconnect your Ringly from the Settings menu and reconnect.
+        \n\nIf this persists, let us know at support@ringly.com
+    </string>
+    <string name="update_description">Update your Ringly to enable its built-in activity tracking features.</string>
+    <string name="update">Update</string>
+
+
+    <string name="steps_placeholder_unknown">
+        If you have a steps-enabled Ringly, please check that it is connected via the Connection menu.
+        \n\n<a href="https://ringly.com/collections/shop">Shop now</a>
+    </string>
+
+    <string name="steps_placeholder_unsupported">
+        You can connect a steps-enabled Ringly to track steps, distance, and calories burned.
+        \n\nStay tuned for Google Fit syncing in the future or take a look at the latest Ringly products online.
+        \n\n<a href="https://ringly.com/collections/shop">Shop now</a>
+    </string>
+
+    <!-- MindfulnessFragment -->
+    <string name="today">Today</string>
+    <string name="stay_mindful">STAY MINDFUL</string>
+    <string name="breathing_exercises">breathing exercises</string>
+    <string name="breathing_minutes">1 to 5 minutes</string>
+    <string name="to">to</string>
+    <string name="guided_audio_sessions">guided audio sessions</string>
+    <string name="guided_meditation">Guided Meditation</string>
+    <string name="mindfulness">Mindfulness</string>
+    <string name="mindfulness_title">Mindfulness</string>
+    <string name="coming_soon">COMING SOON</string>
+    <string name="mindfulness_description">The Ringly app helps you stay balanced and stress free with guided audio meditations and breathing exercises.</string>
+    <string name="mindfulness_feedback">We\'d love to hear your feedback about RINGLY\'s mindfulness features</string>
+    <string name="mindfulness_let_us_know"><a href="https://ringly.typeform.com/to/hTfOHd">Let us know what you think!</a></string>
+    <string name="led_by">Led by</string>
+    <string name="take_a_breather">TAKE A BREATHER</string>
+    <string name="begin">BEGIN</string>
+    <string name="breathing_msg">Collect your focus with a\nshort breathing exercise.</string>
+    <string name="i_have">I have</string>
+    <string name="minutes_dot">minutes.</string>
+    <string name="minutes">minutes</string>
+    <string name="inhale">Inhale</string>
+    <string name="hold">Hold</string>
+    <string name="exhale">Exhale</string>
+    <string name="mindful_minutes_goal">Mindful Minutes Goal</string>
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="reminder_time">Reminder Time</string>
+    <string name="daily_reminder_descrip">Building a mindfulness practice isn\'t easy. Setting a daily reminder will help.</string>
+    <string name="mindful_minutes_progress">%1$d of %2$d mindful minutes</string>
+
+
+    <string name="error_no_connection">No Internet Connection!</string>
+    <string name="error_general">An error ocurred, please try again later.</string>
+    <string name="retry">RETRY</string>
+</resources>

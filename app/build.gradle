@@ -1,0 +1,116 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        // These docs use an open ended version so that our plugin
+        // can be updated quickly in response to Android tooling updates
+
+        // We recommend changing it to the latest version from our changelog:
+        // https://docs.fabric.io/android/changelog.html#fabric-gradle-plugin
+        classpath 'io.fabric.tools:gradle:1.+'
+    }
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'me.tatarka.retrolambda'
+apply plugin: 'io.fabric'
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+ }
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.2'
+
+    defaultConfig {
+        applicationId "com.ringly.ringly"
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionCode 132
+        versionName "2.20.1"
+
+        resConfigs "en"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField "boolean", "LOG_HTTP", "false"
+            buildConfigField "boolean", "LOG_DB", "false"
+        }
+        debug  {
+            minifyEnabled false
+            applicationIdSuffix ".debug"
+            versionNameSuffix "-demo"
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField "boolean", "LOG_HTTP", "true"
+            buildConfigField "boolean", "LOG_DB", "true"
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    // Support libraries
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.android.support:appcompat-v7:25.0.0'
+    compile 'com.android.support:design:25.0.0'
+    compile 'com.android.support:preference-v14:25.0.0'
+    compile 'com.android.support:preference-v7:25.0.0'
+    compile 'com.android.support:recyclerview-v7:25.0.0'
+    compile 'com.android.support:support-annotations:25.0.0'
+    compile 'com.android.support:support-v4:25.0.0'
+
+    // Rx libraries
+    compile 'com.jakewharton.rxbinding:rxbinding:0.4.0'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.3.1'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.sqlbrite:sqlbrite:0.6.2'
+    compile 'io.reactivex:rxandroid:1.2.1'
+    compile 'io.reactivex:rxjava:1.1.6'
+
+    // Widget libraries
+    compile 'com.code-troopers.betterpickers:library:3.0.1'
+    compile 'com.github.PhilJay:MPAndroidChart:v3.0.0'
+
+    compile 'com.mixpanel.android:mixpanel-android:4.9.2'
+
+    compile 'com.google.guava:guava:19.0'
+    compile 'org.apache.commons:commons-lang3:3.4' // TODO get rid of this, we only use it once
+    // compile 'no.nordicsemi.android:dfu:0.6.1' {// TODO(mad-uuids) - forked library
+    //     exclude module: 'support-v4'
+    // }
+    compile(project(':libs:Android-DFU-Library:dfu')){// TODO(mad-uuids) - forked library
+        exclude module: 'support-v4'
+    }
+
+    compile('com.crashlytics.sdk.android:crashlytics:2.6.7@aar') {
+        transitive = true;
+    }
+    compile('com.crashlytics.sdk.android:crashlytics:2.6.7@aar') {
+        transitive = true;
+    }
+    compile 'com.github.bumptech.glide:glide:4.0.0-RC0'
+
+    androidTestCompile 'junit:junit:4.12'
+    androidTestCompile 'com.android.support.test:runner:0.5'
+    androidTestCompile 'com.android.support.test:rules:0.5'
+    // Optional -- Hamcrest library
+    androidTestCompile 'org.hamcrest:hamcrest-library:1.3'
+    androidTestCompile 'com.android.support:support-annotations:25.3.1'
+
+    testCompile 'junit:junit:4.12'
+}

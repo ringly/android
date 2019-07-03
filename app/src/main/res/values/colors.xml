@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#44A9EF</color> <!-- iOS uses 46AAF0 -->
+    <color name="light_blue">#d3f0fa</color>
+    <color name="meditation_blue">#48acef</color>
+    <color name="dark_blue">#1993bb</color>
+    <color name="green">#45E7B5</color> <!-- iOS uses 46E6B4 -->
+    <color name="meditation_green">#4ee6b6</color><!-- iOS uses 4fe4b6-->
+    <color name="bold_green">#00E7B0</color>
+    <color name="yellow">#F8D88B</color> <!-- iOS uses FAD78C -->
+    <color name="red">#FF7F7E</color> <!-- iOS uses FF8282 -->
+    <color name="purple">#CE8BD2</color> <!-- iOS uses CF8BD2 -->
+    <color name="gradient_purple">#C78CBF</color>
+    <color name="gradient_blue">#5CA3E6</color>
+
+    <color name="gray">#363636</color> <!-- iOS agrees! -->
+    <color name="medium_gray">#5E5E5E</color>
+    <color name="light_gray">#E5E5E5</color>
+    <color name="light_light_gray">#F1F1F1</color>
+    <color name="pink">#CDA397</color> <!-- iOS uses CDA096 -->
+
+    <color name="vibration_background">#33FFFFFF</color> <!-- iOS agrees! -->
+    <color name="shadow">#1D171717</color>
+
+    <color name="onbd_background">#ED7E84</color>
+    <color name="tint">#DD000000</color>
+
+    <color name="valentines_pink">#FF8080</color>
+    <color name="valentines_white">#FFFFFF</color>
+
+    <color name="graph_bar_normal">#4CF4F4F4</color> <!-- iOS uses CF8BD2 -->
+    <color name="graph_bar_highlight">#EDF4F4F4</color> <!-- iOS uses CF8BD2 -->
+    <color name="graph_goal_line">#FFFFFF</color>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/name"
+    android:padding="@dimen/header_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:drawablePadding="@dimen/medium_space"
+    android:textSize="@dimen/heading_text"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:background="@color/gray"
+    tools:text="N O T I F I C A T I O N S"
+    tools:drawableStart="@drawable/screens_notifications"
+    />

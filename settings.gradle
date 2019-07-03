@@ -1,0 +1,2 @@
+include ':app'
+include ':libs:Android-DFU-Library:dfu'

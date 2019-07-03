@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/libs/Android-DFU-Library/Android-DFU-Library.iml" filepath="$PROJECT_DIR$/libs/Android-DFU-Library/Android-DFU-Library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android.iml" filepath="$PROJECT_DIR$/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libs/Android-DFU-Library/dfu/dfu.iml" filepath="$PROJECT_DIR$/libs/Android-DFU-Library/dfu/dfu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libs/libs.iml" filepath="$PROJECT_DIR$/libs/libs.iml" />
+    </modules>
+  </component>
+</project>

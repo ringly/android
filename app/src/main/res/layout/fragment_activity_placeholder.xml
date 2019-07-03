@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+    android:background="@drawable/gradient_meditation_blue_green"
+              android:paddingTop="?attr/actionBarSize"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="32dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/activiteaser"
+        />
+
+    <TextView
+        android:id="@+id/text_placeholder_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/steps_placeholder_unsupported"
+        android:textSize="@dimen/heading_text"
+        android:padding="32dp"
+        android:textColorLink="@android:color/white"
+        />
+
+    <Button
+        android:id="@+id/button_update"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:text="@string/update"
+        android:textSize="15sp"
+        android:theme="@style/AppTheme.LoginButton"
+        android:visibility="gone"
+        android:layout_marginBottom="32dp"
+        />
+
+</LinearLayout>

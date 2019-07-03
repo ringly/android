@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/onbd_frame"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/gradient_red_purple">
+    <FrameLayout
+        android:id="@+id/ring"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp">
+        <ImageView
+            android:id="@+id/stone"
+            android:src="@drawable/stone_daybreak"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            />
+        <ImageView
+            android:id="@+id/base"
+            android:src="@drawable/base_gunmetal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            />
+    </FrameLayout>
+    <TextView
+        android:id="@+id/text"
+        android:layout_weight="2"
+        android:textSize="@dimen/heading_text"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        tools:text="'S T A R G A Z E'\nC O N N E C T E D"
+        />
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <group
+        android:id="@+id/group_nav"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_item_connection"
+            android:icon="@drawable/connect_icon"
+            android:title="@string/connection"
+            />
+
+        <item
+            android:id="@+id/nav_item_notifications"
+            android:icon="@drawable/notifications_icon"
+            android:title="@string/notifications"
+            />
+
+        <item
+            android:id="@+id/nav_item_contacts"
+            android:icon="@drawable/contacts_icon"
+            android:title="@string/contacts"
+            />
+
+        <item
+            android:id="@+id/nav_item_activity"
+            android:icon="@drawable/activity_icon"
+            android:title="@string/activity"
+            />
+
+        <item
+            android:id="@+id/nav_item_mindfulness"
+            android:icon="@drawable/meditation_icon"
+            android:title="@string/mindfulness"
+            />
+
+    </group>
+
+    <group
+        android:id="@+id/group_settings"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_item_preferences"
+            android:title="@string/preferences"
+            />
+    </group>
+</menu>

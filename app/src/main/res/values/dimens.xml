@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="divider_width">1px</dimen>
+    <dimen name="border_width">2px</dimen>
+
+    <dimen name="tiny_text">11sp</dimen>
+    <dimen name="body_text">12sp</dimen>
+    <dimen name="small_label_text">14sp</dimen>
+    <dimen name="label_text">16sp</dimen>
+    <dimen name="heading_text">18sp</dimen>
+    <dimen name="title_text">48sp</dimen>
+
+    <dimen name="small_space">6dp</dimen>
+    <dimen name="medium_space">16dp</dimen>
+    <dimen name="large_space">24dp</dimen>
+
+    <dimen name="header_padding">30dp</dimen>
+    <dimen name="notification_height">98dp</dimen>
+    <dimen name="vibration_width">76dp</dimen>
+    <dimen name="text_width">300dp</dimen>
+    <dimen name="icon_width">30dp</dimen>
+
+    <dimen name="switch_width">52dp</dimen>
+    <!--<dimen name="switch_height">32dp</dimen>-->
+    <dimen name="switch_radius">16dp</dimen>
+    <dimen name="switch_border">2dp</dimen>
+    <dimen name="switch_diameter">28dp</dimen>
+    <dimen name="switch_padding">1dp</dimen>
+
+    <dimen name ="onbd_margin">40dp</dimen>
+
+</resources>

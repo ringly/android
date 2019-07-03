@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BaseTheme" parent="Theme.AppCompat.NoActionBar" />
+
+    <style name="AppTheme" parent="BaseTheme">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+
+        <!-- Theme colors -->
+        <item name="colorPrimary">@color/gray</item>
+        <item name="colorAccent">@color/purple</item>
+        <item name="colorControlHighlight">@color/medium_gray</item>
+        <item name="colorControlActivated">@color/bold_green</item>
+
+        <!-- Preferences -->
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/header_padding</item>
+        <item name="android:layout_marginEnd">@dimen/header_padding</item>
+        <item name="android:padding">@dimen/medium_space</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/border</item>
+    </style>
+
+    <style name="BaseSwitch">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textOff">""</item>
+        <item name="android:textOn">""</item>
+    </style>
+
+    <style name="Switch" parent="BaseSwitch">
+        <item name="android:switchMinWidth">@dimen/switch_width</item>
+    </style>
+
+    <style name="DfuHeader">
+        <item name="android:textSize">@dimen/label_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/header_padding</item>
+    </style>
+
+    <style name="OnboardingIcons">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">@dimen/icon_width</item>
+        <item name="android:maxHeight">@dimen/icon_width</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_marginLeft">@dimen/large_space</item>
+        <item name="android:layout_marginRight">@dimen/large_space</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style name="OnboardingHeader">
+        <item name="android:layout_marginTop">@dimen/large_space</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="OnboardingVibrations">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_gravity">right|center</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_marginRight">50dp</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style name="Dots">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/vibration_1</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:alpha">0.5</item>
+    </style>
+
+    <style name="Dots2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/vibration_1</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style name="DiamondFacet">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+    
+    <style name="AppTheme.LoginButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@android:color/white</item>
+        <item name="android:textColor">?attr/colorAccent</item>
+    </style>
+
+    <style name="TextLabel" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#DDD</item>
+    </style>
+
+</resources>

@@ -1,0 +1,3 @@
+[submodule "libs/Android-DFU-Library"]
+	path = libs/Android-DFU-Library
+	url = https://github.com/ringly/Android-DFU-Library.git

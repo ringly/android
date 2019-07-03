@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@drawable/gradient_meditation_blue_green"
+              android:paddingTop="?attr/actionBarSize"
+    >
+
+
+    <ImageView
+        android:id="@+id/imgMindfulness"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="32dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/meditation_teaser"
+        />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-60dp"
+        android:text="@string/mindfulness"
+        android:gravity="center_horizontal"
+        android:textAllCaps="true"
+        android:letterSpacing="0.1"
+        android:textSize="@dimen/heading_text"
+        android:textColorLink="@android:color/white"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/mindfulness_description"
+        android:textSize="@dimen/heading_text"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:paddingTop="32dp"
+        android:textColorLink="@android:color/white"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:padding="8dp"
+        android:letterSpacing="0.1"
+        android:text="@string/coming_soon"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15sp"
+        android:background="@drawable/border"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="20dp"/>
+
+</LinearLayout>

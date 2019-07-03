@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingTop="@dimen/large_space"
+              android:paddingBottom="@dimen/large_space"
+    >
+
+    <TextView
+        android:textSize="@dimen/heading_text"
+        android:text="@string/ring_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:layout_marginStart="@dimen/medium_space"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:contentDescription="@string/ring_outline_description"
+            android:src="@drawable/ring_outline_small"
+            android:layout_width="0dp"
+            android:layout_height="128dp"
+            android:layout_weight="1"
+            android:layout_gravity="left"
+            android:layout_marginStart="@dimen/header_padding"
+            />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="112dp"
+            android:layout_weight="1"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:layout_marginEnd="@dimen/large_space"
+            android:layout_marginBottom="40dp"
+            >
+            <TextView
+                android:id="@+id/ring_connection"
+                android:textSize="@dimen/body_text"
+                android:textStyle="italic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                />
+            <TextView
+                android:id="@+id/ring_id"
+                android:textSize="@dimen/body_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/large_space"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/versions"
+        android:textSize="@dimen/body_text"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="@dimen/text_width"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
